@@ -1,0 +1,15 @@
+{
+  "name": "fb-export-api-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.6.12",
+    "fb-export-api": "^1.0.0"
+  }
+}
