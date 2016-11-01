@@ -6,7 +6,5 @@ const bucket = process.env.BUCKET_ID
 const fbS3 = require('../lib')
 
 fbS3(id, secret, bucket, { end: date, start: date - 86400 })
-  .then((data) => {
-    console.log('updated')
-  })
+  .then((data) => console.log('uploaded'))
   .catch((err) => console.log(err))
