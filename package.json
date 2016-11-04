@@ -11,6 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.6.12",
-    "fb-export-api": "^1.0.0"
+    "fb-export-api": "^1.0.0",
+    "bubleify": "0.6.0"
+  },
+  "browserify": {
+    "transform": [
+      "bubleify"
+    ]
   }
 }
